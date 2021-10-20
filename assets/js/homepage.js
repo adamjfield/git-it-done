@@ -19,10 +19,10 @@ var getUserRepo = function (user) {
       alert("Error: Github User Not Found");
     }
   })
-  .catch(function(error)) {
+  .catch(function(error) {
       // Notice this `.catch()` getting chained into the end of the `.then()` method
       alert("Unable to connect to GitHub");
-  }
+  })
 };
 
 var formSubmitHandler = function (event) {
